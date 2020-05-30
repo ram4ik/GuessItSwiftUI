@@ -16,6 +16,7 @@
 		1DF1AFAC2482E3A4009E773A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF1AFAB2482E3A4009E773A /* ExtensionDelegate.swift */; };
 		1DF1AFAE2482E3A5009E773A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF1AFAD2482E3A5009E773A /* Assets.xcassets */; };
 		1DF1AFB12482E3A5009E773A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF1AFB02482E3A5009E773A /* Preview Assets.xcassets */; };
+		1DF1AFC22482E3E2009E773A /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF1AFC12482E3E2009E773A /* MovieModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		1DF1AFAD2482E3A5009E773A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DF1AFB02482E3A5009E773A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DF1AFB22482E3A5009E773A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF1AFC12482E3E2009E773A /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		1DF1AFA62482E3A4009E773A /* GuessItSwiftUI WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1DF1AFC02482E3BB009E773A /* Model */,
 				1DF1AFA72482E3A4009E773A /* ContentView.swift */,
 				1DF1AFA92482E3A4009E773A /* HostingController.swift */,
 				1DF1AFAB2482E3A4009E773A /* ExtensionDelegate.swift */,
@@ -134,6 +137,14 @@
 				1DF1AFB02482E3A5009E773A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DF1AFC02482E3BB009E773A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DF1AFC12482E3E2009E773A /* MovieModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF1AFC22482E3E2009E773A /* MovieModel.swift in Sources */,
 				1DF1AFAA2482E3A4009E773A /* HostingController.swift in Sources */,
 				1DF1AFA82482E3A4009E773A /* ContentView.swift in Sources */,
 				1DF1AFAC2482E3A4009E773A /* ExtensionDelegate.swift in Sources */,
