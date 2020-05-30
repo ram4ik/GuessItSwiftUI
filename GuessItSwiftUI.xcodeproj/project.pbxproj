@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DF1AF942482E3A3009E773A /* GuessItSwiftUI WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1DF1AF932482E3A3009E773A /* GuessItSwiftUI WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1DF1AF9A2482E3A3009E773A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF1AF982482E3A3009E773A /* Interface.storyboard */; };
+		1DF1AF9C2482E3A4009E773A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF1AF9B2482E3A4009E773A /* Assets.xcassets */; };
+		1DF1AFA32482E3A4009E773A /* GuessItSwiftUI WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1DF1AFA22482E3A4009E773A /* GuessItSwiftUI WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1DF1AFA82482E3A4009E773A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF1AFA72482E3A4009E773A /* ContentView.swift */; };
+		1DF1AFAA2482E3A4009E773A /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF1AFA92482E3A4009E773A /* HostingController.swift */; };
+		1DF1AFAC2482E3A4009E773A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF1AFAB2482E3A4009E773A /* ExtensionDelegate.swift */; };
+		1DF1AFAE2482E3A5009E773A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF1AFAD2482E3A5009E773A /* Assets.xcassets */; };
+		1DF1AFB12482E3A5009E773A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF1AFB02482E3A5009E773A /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DF1AF952482E3A3009E773A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DF1AF892482E3A3009E773A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF1AF922482E3A3009E773A;
+			remoteInfo = "GuessItSwiftUI WatchKit App";
+		};
+		1DF1AFA42482E3A4009E773A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DF1AF892482E3A3009E773A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF1AFA12482E3A4009E773A;
+			remoteInfo = "GuessItSwiftUI WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1DF1AFB82482E3A5009E773A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1DF1AFA32482E3A4009E773A /* GuessItSwiftUI WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF1AFBC2482E3A5009E773A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1DF1AF942482E3A3009E773A /* GuessItSwiftUI WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1DF1AF8F2482E3A3009E773A /* GuessItSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessItSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF1AF932482E3A3009E773A /* GuessItSwiftUI WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GuessItSwiftUI WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF1AF992482E3A3009E773A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1DF1AF9B2482E3A4009E773A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DF1AF9D2482E3A4009E773A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF1AFA22482E3A4009E773A /* GuessItSwiftUI WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GuessItSwiftUI WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF1AFA72482E3A4009E773A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1DF1AFA92482E3A4009E773A /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		1DF1AFAB2482E3A4009E773A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1DF1AFAD2482E3A5009E773A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DF1AFB02482E3A5009E773A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DF1AFB22482E3A5009E773A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DF1AF9F2482E3A4009E773A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DF1AF882482E3A3009E773A = {
+			isa = PBXGroup;
+			children = (
+				1DF1AF972482E3A3009E773A /* GuessItSwiftUI WatchKit App */,
+				1DF1AFA62482E3A4009E773A /* GuessItSwiftUI WatchKit Extension */,
+				1DF1AF902482E3A3009E773A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DF1AF902482E3A3009E773A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DF1AF8F2482E3A3009E773A /* GuessItSwiftUI.app */,
+				1DF1AF932482E3A3009E773A /* GuessItSwiftUI WatchKit App.app */,
+				1DF1AFA22482E3A4009E773A /* GuessItSwiftUI WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DF1AF972482E3A3009E773A /* GuessItSwiftUI WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1DF1AF982482E3A3009E773A /* Interface.storyboard */,
+				1DF1AF9B2482E3A4009E773A /* Assets.xcassets */,
+				1DF1AF9D2482E3A4009E773A /* Info.plist */,
+			);
+			path = "GuessItSwiftUI WatchKit App";
+			sourceTree = "<group>";
+		};
+		1DF1AFA62482E3A4009E773A /* GuessItSwiftUI WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1DF1AFA72482E3A4009E773A /* ContentView.swift */,
+				1DF1AFA92482E3A4009E773A /* HostingController.swift */,
+				1DF1AFAB2482E3A4009E773A /* ExtensionDelegate.swift */,
+				1DF1AFAD2482E3A5009E773A /* Assets.xcassets */,
+				1DF1AFB22482E3A5009E773A /* Info.plist */,
+				1DF1AFAF2482E3A5009E773A /* Preview Content */,
+			);
+			path = "GuessItSwiftUI WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1DF1AFAF2482E3A5009E773A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1DF1AFB02482E3A5009E773A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DF1AF8E2482E3A3009E773A /* GuessItSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF1AFBD2482E3A5009E773A /* Build configuration list for PBXNativeTarget "GuessItSwiftUI" */;
+			buildPhases = (
+				1DF1AF8D2482E3A3009E773A /* Resources */,
+				1DF1AFBC2482E3A5009E773A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DF1AF962482E3A3009E773A /* PBXTargetDependency */,
+			);
+			name = GuessItSwiftUI;
+			productName = GuessItSwiftUI;
+			productReference = 1DF1AF8F2482E3A3009E773A /* GuessItSwiftUI.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		1DF1AF922482E3A3009E773A /* GuessItSwiftUI WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF1AFB92482E3A5009E773A /* Build configuration list for PBXNativeTarget "GuessItSwiftUI WatchKit App" */;
+			buildPhases = (
+				1DF1AF912482E3A3009E773A /* Resources */,
+				1DF1AFB82482E3A5009E773A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DF1AFA52482E3A4009E773A /* PBXTargetDependency */,
+			);
+			name = "GuessItSwiftUI WatchKit App";
+			productName = "GuessItSwiftUI WatchKit App";
+			productReference = 1DF1AF932482E3A3009E773A /* GuessItSwiftUI WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1DF1AFA12482E3A4009E773A /* GuessItSwiftUI WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF1AFB52482E3A5009E773A /* Build configuration list for PBXNativeTarget "GuessItSwiftUI WatchKit Extension" */;
+			buildPhases = (
+				1DF1AF9E2482E3A4009E773A /* Sources */,
+				1DF1AF9F2482E3A4009E773A /* Frameworks */,
+				1DF1AFA02482E3A4009E773A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GuessItSwiftUI WatchKit Extension";
+			productName = "GuessItSwiftUI WatchKit Extension";
+			productReference = 1DF1AFA22482E3A4009E773A /* GuessItSwiftUI WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DF1AF892482E3A3009E773A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Ramill Ibragimov";
+				TargetAttributes = {
+					1DF1AF8E2482E3A3009E773A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					1DF1AF922482E3A3009E773A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					1DF1AFA12482E3A4009E773A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 1DF1AF8C2482E3A3009E773A /* Build configuration list for PBXProject "GuessItSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DF1AF882482E3A3009E773A;
+			productRefGroup = 1DF1AF902482E3A3009E773A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DF1AF8E2482E3A3009E773A /* GuessItSwiftUI */,
+				1DF1AF922482E3A3009E773A /* GuessItSwiftUI WatchKit App */,
+				1DF1AFA12482E3A4009E773A /* GuessItSwiftUI WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DF1AF8D2482E3A3009E773A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF1AF912482E3A3009E773A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF1AF9C2482E3A4009E773A /* Assets.xcassets in Resources */,
+				1DF1AF9A2482E3A3009E773A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF1AFA02482E3A4009E773A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF1AFB12482E3A5009E773A /* Preview Assets.xcassets in Resources */,
+				1DF1AFAE2482E3A5009E773A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DF1AF9E2482E3A4009E773A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF1AFAA2482E3A4009E773A /* HostingController.swift in Sources */,
+				1DF1AFA82482E3A4009E773A /* ContentView.swift in Sources */,
+				1DF1AFAC2482E3A4009E773A /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DF1AF962482E3A3009E773A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DF1AF922482E3A3009E773A /* GuessItSwiftUI WatchKit App */;
+			targetProxy = 1DF1AF952482E3A3009E773A /* PBXContainerItemProxy */;
+		};
+		1DF1AFA52482E3A4009E773A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DF1AFA12482E3A4009E773A /* GuessItSwiftUI WatchKit Extension */;
+			targetProxy = 1DF1AFA42482E3A4009E773A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DF1AF982482E3A3009E773A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DF1AF992482E3A3009E773A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DF1AFB32482E3A5009E773A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DF1AFB42482E3A5009E773A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DF1AFB62482E3A5009E773A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GuessItSwiftUI WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = L8W86DZDY2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "GuessItSwiftUI WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.GuessItSwiftUI.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		1DF1AFB72482E3A5009E773A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GuessItSwiftUI WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = L8W86DZDY2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "GuessItSwiftUI WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.GuessItSwiftUI.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		1DF1AFBA2482E3A5009E773A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8W86DZDY2;
+				IBSC_MODULE = GuessItSwiftUI_WatchKit_Extension;
+				INFOPLIST_FILE = "GuessItSwiftUI WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.GuessItSwiftUI.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		1DF1AFBB2482E3A5009E773A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8W86DZDY2;
+				IBSC_MODULE = GuessItSwiftUI_WatchKit_Extension;
+				INFOPLIST_FILE = "GuessItSwiftUI WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.GuessItSwiftUI.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		1DF1AFBE2482E3A5009E773A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8W86DZDY2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.GuessItSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1DF1AFBF2482E3A5009E773A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8W86DZDY2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.GuessItSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DF1AF8C2482E3A3009E773A /* Build configuration list for PBXProject "GuessItSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF1AFB32482E3A5009E773A /* Debug */,
+				1DF1AFB42482E3A5009E773A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DF1AFB52482E3A5009E773A /* Build configuration list for PBXNativeTarget "GuessItSwiftUI WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF1AFB62482E3A5009E773A /* Debug */,
+				1DF1AFB72482E3A5009E773A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DF1AFB92482E3A5009E773A /* Build configuration list for PBXNativeTarget "GuessItSwiftUI WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF1AFBA2482E3A5009E773A /* Debug */,
+				1DF1AFBB2482E3A5009E773A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DF1AFBD2482E3A5009E773A /* Build configuration list for PBXNativeTarget "GuessItSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF1AFBE2482E3A5009E773A /* Debug */,
+				1DF1AFBF2482E3A5009E773A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DF1AF892482E3A3009E773A /* Project object */;
+}
